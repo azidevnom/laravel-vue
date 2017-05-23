@@ -6,6 +6,8 @@ A boilerplate focused on Laravel as backend and Vue as SPA. Also using bulma. ğŸ
 
 ```
 npm install
+composer install
+php artisan key:generate
 php artisan serve
 npm run hot
 ```

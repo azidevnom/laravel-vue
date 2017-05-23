@@ -8,9 +8,10 @@ A boilerplate focused on Laravel as backend and Vue as SPA. Also using bulma. ðŸ
 npm install
 composer install
 php artisan key:generate
-php artisan serve
-npm run hot
+php artisan serve & npm run hot
 ```
+
+A browser will start pointing to localhost:3000, just change the port to 8000.
 
 ## Where
 

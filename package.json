@@ -1,0 +1,24 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "npm run development",
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules",
+    "watch": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules",
+    "watch-poll": "npm run watch -- --watch-poll",
+    "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot",
+    "prod": "npm run production",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "cross-env": "^3.2.3",
+    "eslint": "^3.19.0",
+    "laravel-mix": "*",
+    "vue": "^2.1.10",
+    "vue-router": "^2.5.3"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.23.0",
+    "bulma": "^0.4.1"
+  }
+}
